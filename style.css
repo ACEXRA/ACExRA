@@ -1,171 +1,29 @@
-*{
-	box-sizing:border-box;
-    margin: 0;
-	overflow:hidden;
+* {
+  box-sizing: content-box;
+}
+.links{
+  margin:20px;
+  color:white;
+  text-decoration:none;
 }
 .intro{
-	font-family: 'Roboto', sans-serif;
-	font-weight:bold;
-	text-align:center;
-
-}
-.coloumn{
-	height:660px;
-	float:left;
-	padding:10px;
-}
-h1{
-	font-family: 'Lato', sans-serif;
-	text-align:center;
-}
-
-#ls{
-	width:20%;
-	background-color:#40bf40;
-	font-color:white;
-	text-align:center;
-	overflow:auto;
-}
-/* my pic */
-#me{
-	border-radius:50%;
-	width:200px;
-	height:300px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-/* links */
-.links{
-	width:24px;
-	height:24px;
-	margin:5px;
-}
-.list1{
-  list-style-type: none;
-  margin: 0 auto;
-  font-size:120%;
-  font-family: 'Merriweather Sans', sans-serif;
   font-weight:bold;
-  text-align:left;
+  font-family: 'Roboto', sans-serif;
 }
-.l3{
-	padding-right:10px;
+.school{
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size:200%;
+  color:red;
 }
-.imgl1{
-	padding-right:10px;
+.year{
+  font-family: 'Roboto Mono', monospace;
+  color:orangered;
+  font-weight:900;
 }
-.i1{
-	text-decoration:none;
-}
-
-#rs{
-	width:80%;
-	background-color:#b3f0ff;
-	overflow:auto;
-	
-}
-.w3-container{
-	padding:20px;
-	
-}
-.webpic{
-	float:right;
-	padding:40px 20px 20px 20px;
-	margin:10px;
-	width:300px;
-	height:300px;
-}
-.innerhead{
-	font-family: 'Acme', sans-serif;
-	color:blue;
-	font-size:250%;
-}
-.subhead{
-	font-family: 'Patrick Hand', cursive;
-	font-size:150%;
-}
-.misc{
-	font-family: 'Nunito', sans-serif;
-	font-size:140%;
-	font-weight:bold;
-}
-.para{
-	font-size:140%;
-	font-family: 'ABeeZee', sans-serif;
-}
-#language{
-	float:right;
-	width:128px;
-	height:128px;
-	padding:10px;
-}
-.cardcoloumn{
-	float:left;
-	width:33.3333%;
-	height:100%;
-	padding: 0 10px 10px;
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color:#ff1a1a;
-  border-radius:30%;
- 
-}
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 5px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background:#00cccc; 
-  border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
-}
-.container1 {
-  width: 90%;
-  background-color: #ddd;
-}
-.skillimg{
-	float:left;
-	padding:20px 10px 20px 10px;
-}
-
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
-
-.c {width: 90%; background-color: #04AA6D;}
-.html {width: 90%; background-color: #2196F3;}
-.css{width: 80%; background-color: #f44336;}
-.js {width: 70%; background-color: #808080;}
-.py{width:70%;background-color:#ac00e6}
-
-.projecthead{
-	color:red;
-	font-size:120%;
-}
-.period{
-	color:#ff8c1a;
-}
-.project-1img{
-	float:left;
-	padding:10px;
-	width:50%;
-	height:400px;
+body{
+    background:url("https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80")	no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
